@@ -14,9 +14,9 @@
          
           
         </form>
-        <!--start footer-->
+       
          <button class="s" @click.prevent="log" > logIn</button>
-        <!--end footer-->
+       
       </div>
     </div>
   </div>
@@ -76,7 +76,7 @@ export default {
   width: 170px;
   height: 1px;
   background-color: #ddd;
-  /* border-radius: 75%; */
+   
   margin-left: 60px;
 }
 .log .h1 {
@@ -97,12 +97,5 @@ export default {
   font-size: 20px;
   font-family: "Lato", sans-serif;
 }
-/*start footer  
-
-    this.blog.name = "";
-      this.blog.password = "";
-      this.$router.push({ path: "/todo" });
-      */
-
-/*end footer*/
+ 
 </style>
